@@ -4,8 +4,12 @@
   "description": "Lebenslauf",
   "main": "script.js",
   "scripts": {
-    "start":"script.js"
+    "start": "script.js"
   },
   "author": "Mehaned",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
 }
