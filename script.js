@@ -1,12 +1,10 @@
 $(document).ready(function(){
-
   $('#menu').click(function(){
     $(this).toggleClass('fa-times');
     $('header').toggleClass('toggle');
   });
 
   $(window).on('scroll load',function(){
-
     $('#menu').removeClass('fa-times');
     $('header').removeClass('toggle');
 
@@ -15,11 +13,9 @@ $(document).ready(function(){
     }else{
       $('.top').hide();
     }
-
   });
 
   // smooth scrolling 
-
   $('a[href*="#"]').on('click',function(e){
     e.preventDefault();
     $('html, body').animate({
@@ -46,14 +42,6 @@ window.onscroll = function () {
         span.style.width = span.dataset.width;
       });
     }
-
-    // // Stats Increase Number
-    // if (window.scrollY >= statsSection.offsetTop) {
-    //     if (!started) {
-    //     nums.forEach((num) => startCount(num));
-    //     }
-    //     started = true;
-    // }
 }
 
 
